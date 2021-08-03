@@ -43,7 +43,11 @@ const start = async ({ path, threshold }) => {
 
 program
   .option('-p, --path <type>', 'Specify images path', './img/')
-  .option('-t, --threshold <type>', 'Total pixel threshold', 700 * 700);
+  .option(
+    '-t, --threshold <type>',
+    'Total pixel threshold (eg: 700*700 or 700x700)',
+    700 * 700,
+  );
 
 const options = program.opts();
 program.parse(process.argv);
