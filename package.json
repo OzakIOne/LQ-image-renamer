@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@dev-syco/quick-math": "^1.0.14",
+    "commander": "^8.1.0",
+    "image-size": "^1.0.0"
+  },
+  "name": "imghq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
